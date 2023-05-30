@@ -11,6 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import java.util.List;
 
+
 @Entity
 @Table(name="ticket")
 public class Ticket {

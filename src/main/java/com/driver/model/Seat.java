@@ -12,6 +12,7 @@ import javax.persistence.Table;
 @Table(name="seats")
 public class Seat {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int seatId;
