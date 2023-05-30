@@ -11,7 +11,6 @@ public class AddTrainEntryDto {
 
     private LocalTime departureTime;
 
-
     private int noOfSeats;
 
     public List<Station> getStationRoute() {
